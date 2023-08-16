@@ -24,5 +24,18 @@ Find them in `data/test` and `data/dev`, you may download the entire [Aishell-1]
 | Dev-Aishell1-NE  | 1334 | 600       | 371          |
 ## Experiment Results
 ### In the Paper
-<img src="figures/result1.pdf"/>
+Result1: Comparing the models
+<img src="./figures/fig1.png" width="1000">
 
+Result2: Ablation study over bias decoder calculation
+<img src="./figures/fig2.png" width="300">
+
+Result3: Performance comparision with larger incoming hotword list
+<img src="./figures/fig3.png" width="300">
+
+Result4: Attention score matrix analysis
+<img src="./figures/fig4.png" width="300">
+
+### Supplementary experiments
+TODO
+    
