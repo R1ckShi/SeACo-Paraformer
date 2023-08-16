@@ -1,7 +1,7 @@
 # SeACo-Paraformer
 
 ## Introduction
-**Se**mantic **A**ugmented **Co**ntextual-Paraformer (SeACo-Paraformer) is a non-autoregressive E2E ASR system with flexible and effective hotword customization ability which follows the main idea of CLAS and ColDec.
+**Se**mantic **A**ugmented **Co**ntextual-Paraformer (SeACo-Paraformer) is a non-autoregressive E2E ASR system with flexible and effective hotword customization ability which follows the main idea of [CLAS](https://arxiv.org/pdf/1808.02480.pdf) and [ColDec](https://arxiv.org/pdf/2012.09466.pdf).
 This repo is built for showing (1) detailed experiment results; (2) source codes; (3) open model links; (4) open hotword customization test sets based on Aishell-1 as discussed in our paper.
 ## Paper
 SeACo-Paraformer: A Non-Autoregressive ASR System with Flexible and Effective Hotword Customization Ability <a href="https://arxiv.org/abs/2308.03266"><img src="https://img.shields.io/badge/Arxiv-2308.03266-green"></a>
@@ -25,15 +25,19 @@ Find them in `data/test` and `data/dev`, you may download the entire [Aishell-1]
 ## Experiment Results
 ### In the Paper
 Result1: Comparing the models
+
 <img src="./figures/fig1.png" width="1000">
 
 Result2: Ablation study over bias decoder calculation
+
 <img src="./figures/fig2.png" width="300">
 
 Result3: Performance comparision with larger incoming hotword list
+
 <img src="./figures/fig3.png" width="300">
 
 Result4: Attention score matrix analysis
+
 <img src="./figures/fig4.png" width="300">
 
 ### Supplementary experiments
