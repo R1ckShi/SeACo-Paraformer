@@ -16,8 +16,10 @@ The model proposed and compared in the paper are implemented with FunASR <a href
 2. Paraformer-CLAS Model: [model link](https://modelscope.cn/models/damo/speech_paraformer-large-contextual_asr_nat-zh-cn-16k-common-vocab8404/summary)
 3. SeACo-Paraformer Model: will be released once paper is accepted
 ## Open Hotword Customization Test Sets
-Previous hotword customization related works have seen performance reported on internal test sets, we hope to provide a common testbed for testing the customization ability of models. Based on a famous Mandarin speech dataset - Aishell-1, we filtered two subsets from test and dev set and prepare hotword lists for them.
-Find them in `data/test` and `data/dev`, you may download the entire [Aishell-1](https://www.openslr.org/33/) and filter out the subset *Test-Aishell1-NE* and *Dev-Aishell1-NE* with `data/test/uttid` and `data/dev/uttid` respectively. And we prepare the entire hotword list `hotword.txt` and R1-hotword list `r1-hotword.txt` for them (R1-hotword stands for those whose recall rate on a general ASR model recognition results below 40%)
+Previous hotword customization related works have seen performance reported on internal test sets, we hope to provide a common testbed for testing the customization ability of models. 
+
+Based on a famous Mandarin speech dataset - Aishell-1, we filtered two subsets from test and dev set and prepare hotword lists for them.
+Find them in `data/test` and `data/dev`, you may download the entire [Aishell-1](https://www.openslr.org/33/) and filter out the subset *Test-Aishell1-NE* and *Dev-Aishell1-NE* with `data/test/uttid` and `data/dev/uttid` respectively. And we prepare the entire hotword list `hotword.txt` and R1-hotword list `r1-hotword.txt` for them (R1-hotword stands for hotwords whose recall rate on a general ASR model recognition results is lower than  40%)
 |                  | #utt | #hotwords | #R1-hotwords |
 |------------------|------|-----------|--------------|
 | Test-Aishell1-NE | 808  | 400       | 226          |
