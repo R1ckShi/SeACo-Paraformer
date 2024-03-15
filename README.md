@@ -18,7 +18,7 @@ The model proposed and compared in the paper are implemented with FunASR <a href
 ## How to Reproduce the Results
 With FunASR <a href='https://github.com/alibaba-damo-academy/FunASR'><img src='https://img.shields.io/badge/Github-Code-blue'></a> toolkit, you can use many ASR models to recognize, which include different language ASR models, different model architectures like SeACo-Paraformer
 
-The following code conduct ASR with hotword customization:
+The following code conducts ASR with hotword customization:
 ```python
 from funasr import AutoModel
 
